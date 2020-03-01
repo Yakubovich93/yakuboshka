@@ -26,6 +26,7 @@ def tut_parser(base_url,headers):
                 'content': content
             })
         print(jobs)
+
     else:
         print('ERROR')
 tut_parser(base_url,headers)
